@@ -2,13 +2,15 @@
 layout: default
 ---
 
-Últimas Reflexiones
-
 {% for post in site.posts %}
-  
-    {{ post.title }}
-    {{ post.date | date: "%d/%m/%Y" }}
-    {{ post.excerpt }}
-  
-  
+  <div style="margin-bottom: 40px;">
+    <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
+    <div class="post-meta">Publicado el {{ post.date | date: "%d/%m/%Y" }}</div>
+    
+    <div style="font-size: 15px; line-height: 1.6;">
+      {{ post.excerpt }}
+    </div>
+    
+    <a href="{{ post.url }}" style="font-size: 12px; font-weight: bold; display: inline-block; margin-top: 10px;">[ Leer texto completo y comentar ]</a>
+  </div>
 {% endfor %}
