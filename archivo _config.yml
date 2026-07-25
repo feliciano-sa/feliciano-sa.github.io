@@ -1,0 +1,5 @@
+name: "Mis Reflexiones"
+description: "Espacio de pensamiento y debate"
+url: "https://feliciano-sa.github.io"
+markdown: kramdown
+theme: minima
