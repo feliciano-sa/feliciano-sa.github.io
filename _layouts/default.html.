@@ -1,0 +1,22 @@
+{{ site.name }}
+    
+
+
+    
+        
+            {{ site.name }}
+            {{ site.description }}
+        
+        
+        
+            
+                {{ content }}
+            
+            
+            
+                Acerca de
+                Este es un espacio de contrainformación y reflexiones independientes.
+                Enlaces
+                
+                    Inicio
+                    Mi GitHub
