@@ -1,0 +1,5 @@
+name: "Crítica y Praxis"
+description: "Espacio de reflexión."
+url: "https://feliciano-sa.github.io"
+markdown: kramdown
+theme: minima
